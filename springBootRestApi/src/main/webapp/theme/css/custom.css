@@ -1,0 +1,109 @@
+.form-space .form-group {
+    margin-bottom: 0;
+}
+.back {
+    margin-top: 17px;
+    margin-bottom: 17px !IMPORTANT;
+}
+.back:hover {
+    background: #a2a0fb;
+    transition: .5s;
+}
+.exts {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+        border-bottom: 1px solid #a2a0fb;
+}
+.exts h2 {
+    flex-basis: 94%;
+}
+.ext {
+    margin: 0;
+    line-height: 23px;
+}
+/* Styles for wrapping the search box */
+
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.row-pad {
+    padding: 0 1.81rem;
+}
+.form-group.has-search .form-control {
+    width: 70%;
+    max-width: 100%;
+}
+hr.hor-line {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(117, 113, 249);
+    width: 94%;
+    margin: 0px auto 1rem auto;
+}
+.card-body select, .card-body input {
+    border-radius: 7px;
+    height: unset!IMPORTANT;
+}
+.denotes h4 {
+    /* font-size: 23px; */
+    text-decoration: underline;
+    color: #13216a;
+}
+.valid-sub {
+    top: unset;
+    min-width: 100px;
+    padding: 5px 0;
+}
+.form-check.mb-3 {
+    margin-top: .5rem !important;
+}
+.lk {
+    padding: 20px 20px 20px;
+   margin: 20px 20px 20px;
+}
+.denotes.lk .form-group.row {
+    margin-top: 20px !important;
+}
+.edits {
+    color: #a2a0fb;
+    font-weight: 600;
+    font-size: 20px;
+}
+.row.hor.dept h5 {
+    color: #151f6f;
+    font-size: .9rem;
+    text-align: center;
+    margin: 0;
+}
+h4.text-center.denotes {
+    padding-bottom: 10px;
+}
+.Mandatory h5 {
+    color: #0a1135;
+    text-align: center;
+    width: 100%;
+}
+.modal-dialog {
+    max-width: 50%;
+    margin: 1.75rem auto;
+}
+.lk:nth-of-type(2) {
+    margin: 35px 20px !important;
+}
